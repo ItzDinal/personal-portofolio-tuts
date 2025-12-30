@@ -12,6 +12,7 @@ import './index.css'
  */
 import {App} from '@/App';
 import { Sidebar } from '@/components/Sidebar';
+import { FloatingMenu } from '@/components/FloatingMenu';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
