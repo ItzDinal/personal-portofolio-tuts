@@ -43,6 +43,15 @@ export const Hero = () => {
             >
                 I'm <span className='text-primary'>Dinal</span>, an AI/ML engineer.
             </motion.h1>
+            <motion.h1
+                variants={fadeUp}
+                className='mt-5 flex gap-2'
+            >
+                <Button asChild>
+                    <a href='#projects'>My Projects</a>
+                </Button>
+                <Button variant='outline'>Download CV</Button>
+            </motion.h1>
         </motion.section>
     );
 }
