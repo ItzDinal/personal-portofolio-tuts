@@ -13,7 +13,7 @@ import { useEffect } from "react";
 
 import { Hero } from "@/components/Hero";
 import { Stats } from "@/components/Stats";
-
+import { Projects } from "@/components/Projects";
 
 export const App = () => {
   return (
