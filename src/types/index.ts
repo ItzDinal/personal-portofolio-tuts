@@ -1,5 +1,5 @@
 /**
- * @copyright 2025 codewithsadee
+ * 
  * @license Apache-2.0
  */
 
@@ -49,3 +49,4 @@ export type LinksType = {
   link: string;
   icon: React.ElementType;
 };
+

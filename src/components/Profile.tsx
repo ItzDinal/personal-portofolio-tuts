@@ -14,7 +14,7 @@ export const Profile = () => {
 
             </div>
             <img 
-                src="/profile.jpg" 
+                src="/avatar.jpg" 
                 alt="Dinal"
                 className="lg:w rounded-2xl object-cover" 
             />
