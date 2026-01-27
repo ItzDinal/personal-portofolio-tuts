@@ -29,6 +29,9 @@ export const Testimonials = () => {
     const [curSlide, setCurSlide] = useState(0);
 
     const next = () => setCurSlide((prev) => (prev + 1) % testimonials.length)
+    const prev = () => 
+        setCurSlide(
+            (prev) => (prev - 1 + testimonials.length) % testimonials.length)
     return (
     <motion.section
         initial='hidden'
@@ -94,7 +97,9 @@ export const Testimonials = () => {
                 </motion.div>
             </AnimatePresence>
             <div className="flex gap-4 mt-8 ">
-                <button className="size-10 flex items-center justify-center justify-center rounded-full border border-neutral-700 hover:bg-neutral-800 transition">
+                <button 
+                onClick={prev} 
+                className="size-10 flex items-center justify-center justify-center rounded-full border border-neutral-700 hover:bg-neutral-800 transition">
                     <ChevronLeftIcon size={18} />
                 </button>
 
